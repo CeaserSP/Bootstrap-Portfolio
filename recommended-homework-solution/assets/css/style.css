@@ -89,6 +89,7 @@ nav {
   border-bottom: 2px solid #cccccc;
 }
 .navbar-brand{
+  padding-right:15px; 
   float: left;
   width: auto;
   height: 90px;
@@ -100,6 +101,9 @@ nav {
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
+}
+.navbar-nav{
+  margin-right: 0px;
 }
 nav a {
   display: inline-block;
