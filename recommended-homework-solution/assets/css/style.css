@@ -78,10 +78,29 @@ h3 {
 }
 
 nav {
-  float: right;
-  margin-top: 25px;
+  
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #ffffff;
+  background: #ffffff;
+  border-bottom: 2px solid #cccccc;
 }
-
+.navbar-brand{
+  float: left;
+  width: auto;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+}
 nav a {
   display: inline-block;
   padding-left: 15px;
